@@ -4,7 +4,8 @@ using System.Collections;
 public class MainCharacterScript : MonoBehaviour {
 
 
-		public float smoothing = 7f;
+		public float smoothing = 1f;
+		public float speed;
 		public Vector3 Target
 		{
 				get{ return target; }set
@@ -16,17 +17,25 @@ public class MainCharacterScript : MonoBehaviour {
 				}
 		}
 
-
 		private Vector3 target;
-
 
 		IEnumerator Movement (Vector3 target)
 		{
 				while(Vector3.Distance(transform.position, target) > 0.05f)
 				{
-						transform.position = Vector3.Lerp(transform.position, target, smoothing * Time.deltaTime);
-
+						float step = speed * Time.deltaTime;
+						//transform.position = Vector3.Lerp(transform.position, target, smoothing * Time.deltaTime);
+						transform.position = Vector3.MoveTowards(transform.position, target, step);
 						yield return null;
 				}
 		}
+
+		void OnCollisionEnter2D(Collision2D other){
+				print ("Should be stopping");
+				StopCoroutine("Movement");
+		}
+
+		/*void OnTriggerEnter(Collider other){
+				StopCoroutine("Movement");
+		}*/
 }
