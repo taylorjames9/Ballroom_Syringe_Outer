@@ -195,6 +195,7 @@
      <Compile Include="Assets\NGUI\Scripts\UI\UITexture.cs" />
      <Compile Include="Assets\NGUI\Scripts\UI\UITooltip.cs" />
      <Compile Include="Assets\NGUI\Scripts\UI\UIViewport.cs" />
+     <Compile Include="Assets\Scripts\ExitScript.cs" />
      <Compile Include="Assets\Scripts\LoverScript.cs" />
      <Compile Include="Assets\Scripts\MainCharacterScript.cs" />
      <Compile Include="Assets\Scripts\Suitor.cs" />
