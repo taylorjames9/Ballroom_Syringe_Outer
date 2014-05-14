@@ -6,6 +6,7 @@ public class MainCharacterScript : MonoBehaviour {
 
 		public float smoothing = 1f;
 		public float speed;
+		public GameObject stabbyPose;
 		public Vector3 Target
 		{
 				get{ return target; }set
@@ -33,8 +34,12 @@ public class MainCharacterScript : MonoBehaviour {
 		void OnCollisionEnter2D(Collision2D other){
 				//print ("Should be stopping");
 
-				if (other.gameObject.tag == "syringe")
+				if (other.gameObject.tag == "syringe") {
 						other.gameObject.SetActive (false);
+						renderer.enabled = false;
+						stabbyPose.renderer.enabled = true;
+
+				}
 
 				StopCoroutine("Movement");
 		}
