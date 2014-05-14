@@ -198,6 +198,7 @@
      <Compile Include="Assets\Scripts\LoverScript.cs" />
      <Compile Include="Assets\Scripts\MainCharacterScript.cs" />
      <Compile Include="Assets\Scripts\Suitor.cs" />
+     <Compile Include="Assets\Scripts\SyringeScript.cs" />
      <Compile Include="Assets\Scripts\TapSetPosition.cs" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Depth Cutout.shader" />
      <None Include="Assets\NGUI\ReadMe - 3.5.5.txt" />

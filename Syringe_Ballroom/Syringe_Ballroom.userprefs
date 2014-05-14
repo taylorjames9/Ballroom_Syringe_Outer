@@ -1,10 +1,13 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="../../BrokenDonut_Outer/BrokenDonut/Assets/Scripts/Drag_Rotate_Left_Sphere.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/SyringeScript.cs">
     <Files>
-      <File FileName="Assets/Scripts/MainCharacterScript.cs" Line="31" Column="4" />
-      <File FileName="Assets/Scripts/TapSetPosition.cs" Line="12" Column="41" />
-      <File FileName="../../BrokenDonut_Outer/BrokenDonut/Assets/Scripts/Drag_Rotate_Left_Sphere.cs" Line="42" Column="49" />
+      <File FileName="Assets/Scripts/MainCharacterScript.cs" Line="42" Column="1" />
+      <File FileName="Assets/Scripts/TapSetPosition.cs" Line="15" Column="1" />
+      <File FileName="../../BrokenDonut_Outer/BrokenDonut/Assets/Scripts/Drag_Rotate_Left_Sphere.cs" Line="57" Column="1" />
+      <File FileName="Assets/FingerGestures Samples/2) Gestures/Scripts/BasicGesturesSample.cs" Line="91" Column="81" />
+      <File FileName="Assets/Scripts/LoverScript.cs" Line="18" Column="1" />
+      <File FileName="Assets/Scripts/SyringeScript.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

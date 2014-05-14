@@ -31,11 +31,18 @@ public class MainCharacterScript : MonoBehaviour {
 		}
 
 		void OnCollisionEnter2D(Collision2D other){
-				print ("Should be stopping");
+				//print ("Should be stopping");
+
+				if (other.gameObject.tag == "syringe")
+						other.gameObject.SetActive (false);
+
 				StopCoroutine("Movement");
 		}
 
-		/*void OnTriggerEnter(Collider other){
+		void OnCollisionStay2D(Collision2D other){
+				//print ("Should be stopping");
 				StopCoroutine("Movement");
-		}*/
+		}
+
+
 }
