@@ -48,28 +48,39 @@ public class MainCharacterScript : MonoBehaviour {
 								//currentMainAnimState = CurrentMainCharAnimationState.WalkRight;
 								animator.SetInteger ("Direction",2);
 						}
-						/*else if (target.x < transform.position.x && holdingSyringe) {
+						else if (target.x < transform.position.x && holdingSyringe) {
+								animator.SetInteger ("Direction",4);
 								//currentMainAnimState = CurrentMainCharAnimationState.WalkLeftSyringe;
 						}
 						else if (target.x > transform.position.x && holdingSyringe) {
+								animator.SetInteger ("Direction",5);
 								//currentMainAnimState = CurrentMainCharAnimationState.WalkRightSyringe;
-						}*/
+						}
+
 						//animator.SetInteger ("Direction", 0);
+
+						if (Vector3.Distance (transform.position, target) < 0.1f) {
+								print ("Should be less than 0.1f away from target");
+								if(noSyringe)
+									animator.SetInteger ("Direction", 0);
+								else
+										animator.SetInteger ("Direction", 3);
+						}
+
+						//animation.Stop();
 
 						yield return null;
 				}
-
-
-
 		}
 
-		void Update(){
+		/*void Update(){
 				if (Vector3.Distance (transform.position, target) < 0.1f) {
 						print ("Should be less than 0.1f away from target");
 						animator.SetInteger ("Direction", 0);
+						//animation.Stop();
 				}
 
-		}
+		}*/
 				
 		void OnCollisionEnter2D(Collision2D other){
 				print ("Should be entering collider and stopping");
@@ -80,14 +91,22 @@ public class MainCharacterScript : MonoBehaviour {
 						holdingSyringe = true; 
 				}
 
-				animator.SetInteger ("Direction", 0);
+				if(noSyringe)
+						animator.SetInteger ("Direction", 0);
+				else
+						animator.SetInteger ("Direction", 3);
+				//animation.Stop();
 				StopCoroutine("Movement");
 
 		}
 
 		void OnCollisionStay2D(Collision2D other){
 				print ("Should be staying!");
-				animator.SetInteger ("Direction", 0);
+				if(noSyringe)
+						animator.SetInteger ("Direction", 0);
+				else
+						animator.SetInteger ("Direction", 3);
+				//animation.Stop();
 				StopCoroutine("Movement");
 
 		}
