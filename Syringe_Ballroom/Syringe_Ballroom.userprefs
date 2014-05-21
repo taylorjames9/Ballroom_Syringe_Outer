@@ -1,14 +1,12 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ExitScript.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/MainCharacterScript.cs">
     <Files>
-      <File FileName="Assets/Scripts/MainCharacterScript.cs" Line="40" Column="42" />
-      <File FileName="Assets/Scripts/TapSetPosition.cs" Line="12" Column="1" />
-      <File FileName="../../BrokenDonut_Outer/BrokenDonut/Assets/Scripts/Drag_Rotate_Left_Sphere.cs" Line="57" Column="1" />
-      <File FileName="Assets/FingerGestures Samples/2) Gestures/Scripts/BasicGesturesSample.cs" Line="91" Column="81" />
-      <File FileName="Assets/Scripts/LoverScript.cs" Line="21" Column="7" />
-      <File FileName="Assets/Scripts/SyringeScript.cs" Line="14" Column="7" />
-      <File FileName="Assets/Scripts/ExitScript.cs" Line="1" Column="1" />
+      <File FileName="../../MapsInUnityOuter/MapsInUnity/Assets/GoogleMaps/Scripts/GoogleMap.cs" Line="125" Column="22" />
+      <File FileName="../../powers_spots_poc/PowerSpotsPOC/Assets/Assets/Scripts/GoButton.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/MainCharacterScript.cs" Line="55" Column="38" />
+      <File FileName="../../KnightErrant/KnightErrantGame/Assets/Scripts/GameManager.cs" Line="437" Column="4" />
+      <File FileName="../../KnightErrant/KnightErrantGame/Assets/Scripts/KnightController.cs" Line="99" Column="13" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
