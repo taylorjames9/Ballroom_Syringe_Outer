@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 5f308c02292f349758bffefb862cb4db
+guid: a0d6447288df7402e94390c56b076a34
 TextureImporter:
   serializedVersion: 2
   mipmaps:
@@ -45,7 +45,7 @@ TextureImporter:
     compressionQuality: 50
   spriteSheet:
     sprites:
-    - name: MainGuy_WalkSyringe_0
+    - name: MainGuy_WalkSyringe_Left_0
       rect:
         serializedVersion: 2
         x: 0
@@ -54,7 +54,7 @@ TextureImporter:
         height: 59
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: MainGuy_WalkSyringe_1
+    - name: MainGuy_WalkSyringe_Left_1
       rect:
         serializedVersion: 2
         x: 34
@@ -63,7 +63,7 @@ TextureImporter:
         height: 59
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: MainGuy_WalkSyringe_2
+    - name: MainGuy_WalkSyringe_Left_2
       rect:
         serializedVersion: 2
         x: 68
@@ -72,7 +72,7 @@ TextureImporter:
         height: 59
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: MainGuy_WalkSyringe_3
+    - name: MainGuy_WalkSyringe_Left_3
       rect:
         serializedVersion: 2
         x: 102
@@ -81,7 +81,7 @@ TextureImporter:
         height: 59
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: MainGuy_WalkSyringe_4
+    - name: MainGuy_WalkSyringe_Left_4
       rect:
         serializedVersion: 2
         x: 136
@@ -90,7 +90,7 @@ TextureImporter:
         height: 59
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: MainGuy_WalkSyringe_5
+    - name: MainGuy_WalkSyringe_Left_5
       rect:
         serializedVersion: 2
         x: 170
@@ -99,7 +99,7 @@ TextureImporter:
         height: 59
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: MainGuy_WalkSyringe_6
+    - name: MainGuy_WalkSyringe_Left_6
       rect:
         serializedVersion: 2
         x: 204
@@ -108,7 +108,7 @@ TextureImporter:
         height: 59
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: MainGuy_WalkSyringe_7
+    - name: MainGuy_WalkSyringe_Left_7
       rect:
         serializedVersion: 2
         x: 0
@@ -117,7 +117,7 @@ TextureImporter:
         height: 59
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: MainGuy_WalkSyringe_8
+    - name: MainGuy_WalkSyringe_Left_8
       rect:
         serializedVersion: 2
         x: 34
@@ -126,7 +126,7 @@ TextureImporter:
         height: 59
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: MainGuy_WalkSyringe_9
+    - name: MainGuy_WalkSyringe_Left_9
       rect:
         serializedVersion: 2
         x: 68
@@ -135,7 +135,7 @@ TextureImporter:
         height: 59
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: MainGuy_WalkSyringe_10
+    - name: MainGuy_WalkSyringe_Left_10
       rect:
         serializedVersion: 2
         x: 102
@@ -144,7 +144,7 @@ TextureImporter:
         height: 59
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: MainGuy_WalkSyringe_11
+    - name: MainGuy_WalkSyringe_Left_11
       rect:
         serializedVersion: 2
         x: 136
@@ -153,7 +153,7 @@ TextureImporter:
         height: 59
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: MainGuy_WalkSyringe_12
+    - name: MainGuy_WalkSyringe_Left_12
       rect:
         serializedVersion: 2
         x: 170
@@ -162,7 +162,7 @@ TextureImporter:
         height: 59
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: MainGuy_WalkSyringe_13
+    - name: MainGuy_WalkSyringe_Left_13
       rect:
         serializedVersion: 2
         x: 204
@@ -171,7 +171,7 @@ TextureImporter:
         height: 59
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: MainGuy_WalkSyringe_14
+    - name: MainGuy_WalkSyringe_Left_14
       rect:
         serializedVersion: 2
         x: 0
@@ -180,7 +180,7 @@ TextureImporter:
         height: 59
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: MainGuy_WalkSyringe_15
+    - name: MainGuy_WalkSyringe_Left_15
       rect:
         serializedVersion: 2
         x: 34
@@ -189,7 +189,7 @@ TextureImporter:
         height: 59
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: MainGuy_WalkSyringe_16
+    - name: MainGuy_WalkSyringe_Left_16
       rect:
         serializedVersion: 2
         x: 68
@@ -198,7 +198,7 @@ TextureImporter:
         height: 59
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: MainGuy_WalkSyringe_17
+    - name: MainGuy_WalkSyringe_Left_17
       rect:
         serializedVersion: 2
         x: 102
@@ -207,7 +207,7 @@ TextureImporter:
         height: 59
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: MainGuy_WalkSyringe_18
+    - name: MainGuy_WalkSyringe_Left_18
       rect:
         serializedVersion: 2
         x: 136
@@ -216,7 +216,7 @@ TextureImporter:
         height: 59
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: MainGuy_WalkSyringe_19
+    - name: MainGuy_WalkSyringe_Left_19
       rect:
         serializedVersion: 2
         x: 170
@@ -225,7 +225,7 @@ TextureImporter:
         height: 59
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: MainGuy_WalkSyringe_20
+    - name: MainGuy_WalkSyringe_Left_20
       rect:
         serializedVersion: 2
         x: 204
@@ -234,7 +234,7 @@ TextureImporter:
         height: 59
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: MainGuy_WalkSyringe_21
+    - name: MainGuy_WalkSyringe_Left_21
       rect:
         serializedVersion: 2
         x: 0
