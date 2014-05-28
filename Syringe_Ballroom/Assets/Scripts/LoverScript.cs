@@ -19,9 +19,11 @@ public class LoverScript : MonoBehaviour {
 	}
 
 	void OnTap(TapGesture gesture) { 
-				if (MainCharacterScript.stabOption) {
+				if (MainCharacterScript.stabLoverOption) {
 						//Play Death Animation
 						animator.SetBool ("isDead", true);
+						mySpeech.SetActive(false);
+						//MainCharacterScript.myStabText.SetActive (false);
 				}
 	
 	}

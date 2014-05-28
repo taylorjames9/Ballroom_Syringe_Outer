@@ -1,0 +1,130 @@
+fileFormatVersion: 2
+guid: d929a0bf42d6b4d30bac5475d66f2811
+TextureImporter:
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spritePixelsToUnits: 45
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: iPhone
+    maxTextureSize: 1024
+    textureFormat: -2
+    compressionQuality: 50
+  spriteSheet:
+    sprites:
+    - name: Suitor3_Dies_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 177
+        width: 30
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Suitor3_Dies_1
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 177
+        width: 30
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Suitor3_Dies_2
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 177
+        width: 30
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Suitor3_Dies_3
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 186
+        width: 43
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Suitor3_Dies_4
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 137
+        width: 58
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Suitor3_Dies_5
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 137
+        width: 58
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Suitor3_Dies_6
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 137
+        width: 58
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Suitor3_Dies_7
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 93
+        width: 58
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Suitor3_Dies_8
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 93
+        width: 58
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+  spritePackingTag: 
+  userData: 

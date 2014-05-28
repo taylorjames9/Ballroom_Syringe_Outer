@@ -23,7 +23,8 @@ public class MainCharacterScript : MonoBehaviour {
 		private bool noSyringe;
 		private bool holdingSyringe;
 		public GameObject myStabText;
-		public static bool stabOption;
+		public static bool stabLoverOption;
+		public static bool stabSuitorOption;
 
 		public enum CurrentMainCharAnimationState {Idle, WalkLeft, WalkRight, WalkLeftSyringe, WalkRightSyringe, Stab, Die};
 		public static CurrentMainCharAnimationState currentMainAnimState;
@@ -116,17 +117,20 @@ public class MainCharacterScript : MonoBehaviour {
 				//animation.Stop();
 				StopCoroutine("Movement");
 
-		if (other.gameObject.tag == "LoveInterest" && holdingSyringe == true) {
-
-			myStabText.SetActive (true);
-			stabOption = true;
-		}
-
+			if (other.gameObject.tag == "LoveInterest" && holdingSyringe == true) {
+				myStabText.SetActive (true);
+						stabLoverOption = true;
+				} 
+			if (other.gameObject.tag == "Suitor1" && holdingSyringe == true) {
+				myStabText.SetActive (true);
+				stabSuitorOption = true;
+				} 
 		}
 
 	void OnCollisionExit2D(Collision2D other){
-				myStabText.SetActive (false);
-		stabOption = false;
+		myStabText.SetActive (false);
+				stabSuitorOption = false;
+				stabLoverOption = false;
 	}
 
 
