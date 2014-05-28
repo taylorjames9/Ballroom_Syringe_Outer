@@ -25,6 +25,7 @@ public class MainCharacterScript : MonoBehaviour {
 		public GameObject myStabText;
 		public static bool stabLoverOption;
 		public static bool stabSuitorOption;
+		private static int itapMyself;
 
 		public enum CurrentMainCharAnimationState {Idle, WalkLeft, WalkRight, WalkLeftSyringe, WalkRightSyringe, Stab, Die};
 		public static CurrentMainCharAnimationState currentMainAnimState;
@@ -70,22 +71,25 @@ public class MainCharacterScript : MonoBehaviour {
 								else
 										animator.SetInteger ("Direction", 3);
 						}
-
-						//animation.Stop();
-
 						yield return null;
 				}
 		}
 
-		/*void Update(){
-				if (Vector3.Distance (transform.position, target) < 0.1f) {
-						print ("Should be less than 0.1f away from target");
-						animator.SetInteger ("Direction", 0);
-						//animation.Stop();
+		void OnTap(TapGesture gesture) { 
+				if (holdingSyringe) {
+						itapMyself++;
+						if (itapMyself >= 2) {
+								myStabText.SetActive (true);
+								print ("itapMyself = "+itapMyself);
+						}
+						else if (itapMyself >= 3) {
+								myStabText.SetActive (false);
+								//Death animation
+								animator.SetInteger ("Direction", 6);
+								print ("itapMyself = "+itapMyself);
+						}
 				}
-
-		}*/
-				
+		}
 		void OnCollisionEnter2D(Collision2D other){
 				print ("Should be entering collider and stopping");
 
@@ -94,9 +98,7 @@ public class MainCharacterScript : MonoBehaviour {
 						noSyringe = false;
 						holdingSyringe = true; 
 		} else if (other.gameObject.tag == "LoveInterest" && holdingSyringe == true) {
-
 					myStabText.SetActive(false);
-
 				}
 
 				if(noSyringe)
@@ -132,6 +134,4 @@ public class MainCharacterScript : MonoBehaviour {
 				stabSuitorOption = false;
 				stabLoverOption = false;
 	}
-
-
 }
