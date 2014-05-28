@@ -25,6 +25,7 @@ public class MainCharacterScript : MonoBehaviour {
 		public GameObject myStabText;
 		public static bool stabLoverOption;
 		public static bool stabSuitorOption;
+		public static bool stabSelfOption;
 		private static int itapMyself;
 
 		public enum CurrentMainCharAnimationState {Idle, WalkLeft, WalkRight, WalkLeftSyringe, WalkRightSyringe, Stab, Die};
@@ -77,16 +78,23 @@ public class MainCharacterScript : MonoBehaviour {
 
 		void OnTap(TapGesture gesture) { 
 				if (holdingSyringe) {
-						itapMyself++;
-						if (itapMyself >= 2) {
-								myStabText.SetActive (true);
-								print ("itapMyself = "+itapMyself);
-						}
-						else if (itapMyself >= 3) {
-								myStabText.SetActive (false);
-								//Death animation
-								animator.SetInteger ("Direction", 6);
-								print ("itapMyself = "+itapMyself);
+						GameObject hitObject = gesture.Selection;
+
+						if( hitObject.tag == "Player" )
+						{
+								itapMyself++;
+								if (itapMyself == 2) {
+										stabSelfOption = true;
+										myStabText.SetActive (true);
+										print ("itapMyself = "+itapMyself);
+								}
+								else if (itapMyself > 2 && stabSelfOption) {
+										myStabText.SetActive (false);
+										//Death animation
+										animator.SetInteger ("Direction", 6);
+										print ("itapMyself = "+itapMyself);
+										itapMyself = 0;
+								}
 						}
 				}
 		}

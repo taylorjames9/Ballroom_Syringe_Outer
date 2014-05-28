@@ -1,0 +1,184 @@
+fileFormatVersion: 2
+guid: d34319a766de844d0bbbac2d56a687e5
+TextureImporter:
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spritePixelsToUnits: 45
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: iPhone
+    maxTextureSize: 1024
+    textureFormat: -2
+    compressionQuality: 50
+  spriteSheet:
+    sprites:
+    - name: Wal_Right_tk2_0
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 177
+        width: 32
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Wal_Right_tk2_1
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 177
+        width: 32
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Wal_Right_tk2_2
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 177
+        width: 32
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Wal_Right_tk2_3
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 177
+        width: 32
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Wal_Right_tk2_4
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 177
+        width: 32
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Wal_Right_tk2_5
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 108
+        width: 32
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Wal_Right_tk2_6
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 108
+        width: 32
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Wal_Right_tk2_7
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 108
+        width: 32
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Wal_Right_tk2_8
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 108
+        width: 32
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Wal_Right_tk2_9
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 108
+        width: 32
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Wal_Right_tk2_10
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 39
+        width: 32
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Wal_Right_tk2_11
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 39
+        width: 32
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Wal_Right_tk2_12
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 39
+        width: 32
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Wal_Right_tk2_13
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 39
+        width: 32
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Wal_Right_tk2_14
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 39
+        width: 32
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+  spritePackingTag: 
+  userData: 
