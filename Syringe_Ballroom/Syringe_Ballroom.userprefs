@@ -1,12 +1,12 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/MainCharacterScript.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../UnityToDownloadMapNav/Assets/MAPNAV/Scripts/MapNav.js">
     <Files>
       <File FileName="../../MapsInUnityOuter/MapsInUnity/Assets/GoogleMaps/Scripts/GoogleMap.cs" Line="125" Column="22" />
-      <File FileName="../../powers_spots_poc/PowerSpotsPOC/Assets/Assets/Scripts/GoButton.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/MainCharacterScript.cs" Line="55" Column="38" />
-      <File FileName="../../KnightErrant/KnightErrantGame/Assets/Scripts/GameManager.cs" Line="437" Column="4" />
-      <File FileName="../../KnightErrant/KnightErrantGame/Assets/Scripts/KnightController.cs" Line="99" Column="13" />
+      <File FileName="Assets/Scripts/MainCharacterScript.cs" Line="107" Column="28" />
+      <File FileName="../../KnightErrant/KnightErrantGame/Assets/Scripts/GameManager.cs" Line="1" Column="1" />
+      <File FileName="../../KnightErrant/KnightErrantGame/Assets/Scripts/KnightController.cs" Line="30" Column="44" />
+      <File FileName="../../UnityToDownloadMapNav/Assets/MAPNAV/Scripts/MapNav.js" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

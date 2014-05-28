@@ -22,6 +22,8 @@ public class MainCharacterScript : MonoBehaviour {
 		private Animator animator;
 		private bool noSyringe;
 		private bool holdingSyringe;
+		public GameObject myStabText;
+		public static bool stabOption;
 
 		public enum CurrentMainCharAnimationState {Idle, WalkLeft, WalkRight, WalkLeftSyringe, WalkRightSyringe, Stab, Die};
 		public static CurrentMainCharAnimationState currentMainAnimState;
@@ -29,6 +31,7 @@ public class MainCharacterScript : MonoBehaviour {
 		void Start(){
 				noSyringe = true;
 				animator = this.GetComponent<Animator>();
+				myStabText.SetActive(false);
 		}
 
 		IEnumerator Movement (Vector3 target)
@@ -89,6 +92,10 @@ public class MainCharacterScript : MonoBehaviour {
 						other.gameObject.SetActive (false);
 						noSyringe = false;
 						holdingSyringe = true; 
+		} else if (other.gameObject.tag == "LoveInterest" && holdingSyringe == true) {
+
+					myStabText.SetActive(false);
+
 				}
 
 				if(noSyringe)
@@ -104,10 +111,23 @@ public class MainCharacterScript : MonoBehaviour {
 				print ("Should be staying!");
 				if(noSyringe)
 						animator.SetInteger ("Direction", 0);
-				else
+				else if(holdingSyringe)
 						animator.SetInteger ("Direction", 3);
 				//animation.Stop();
 				StopCoroutine("Movement");
 
+		if (other.gameObject.tag == "LoveInterest" && holdingSyringe == true) {
+
+			myStabText.SetActive (true);
+			stabOption = true;
 		}
+
+		}
+
+	void OnCollisionExit2D(Collision2D other){
+				myStabText.SetActive (false);
+		stabOption = false;
+	}
+
+
 }
